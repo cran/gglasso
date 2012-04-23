@@ -1,6 +1,6 @@
 94d55d512a9ba36caa9b7df079bae19f *COPYING
-f293812f87ba9d023bf0a5f2f8472298 *ChangeLog
-b610af5799dadeacc032e86b5ad787d1 *DESCRIPTION
+2633c53c480a93ca55f1e70411453801 *ChangeLog
+9c899017fd22b8bdab0203e7846a63e4 *DESCRIPTION
 600218b4d211b73cb5352e3339285a8c *NAMESPACE
 5054fb147d0e58a607dcdabf78017f16 *R/auxiliary.R
 6e1542fe826ff2a7c6b31b5fc64b2b4a *R/cv.R
@@ -18,7 +18,7 @@ b11e5c8368022e99ca875f8a02d3d2cf *man/coef.cv.gglasso.Rd
 bcb9c5057fef15540fb786603ba5c812 *man/coef.gglasso.Rd
 bdd07b63ef583076395ba8de354d2c75 *man/colon.Rd
 5b99cc1fc8395943f45c67cde0493702 *man/cv.gglasso.Rd
-063ef8bc0792d1ee9d6c45bab3760f68 *man/gglasso.Rd
+7c440dfdea95e399f7ec0f2c8d583169 *man/gglasso.Rd
 8378294585c15eeb4ba36851ef53530d *man/plot.cv.gglasso.Rd
 a38eb64bbd5459d3f65aadc8db5c7faa *man/plot.gglasso.Rd
 aeede40830b75f5daa5819c450aa33ba *man/predict.cv.gglasso.Rd
