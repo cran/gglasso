@@ -1,13 +1,14 @@
 Package: gglasso
-Title: Group Lasso Penalized Learning Using A Unified BMD Algorithm
-Version: 1.3
-Date: 2012-4-23
-Author: Yi Yang <yiyang@umn.edu>, Hui Zou <hzou@stat.umn.edu>
-Maintainer: Yi Yang <yiyang@umn.edu>
-Description: This package implements a unified algorithm, blockwise-majorization-decent (BMD), for efficiently computing the solution paths of the group-lasso penalized least squares, logistic regression, Huberized SVM and squared SVM.
+Title: Group Lasso Penalized Learning Using a Unified BMD Algorithm
+Version: 1.4
+Date: 2017-9-12
+Author: Yi Yang <yi.yang6@mcgill.ca>, Hui Zou <hzou@stat.umn.edu>
+Maintainer: Yi Yang <yi.yang6@mcgill.ca>
+Description: A unified algorithm, blockwise-majorization-descent (BMD), for efficiently computing the solution paths of the group-lasso penalized least squares, logistic regression, Huberized SVM and squared SVM. The package is an implementation of Yang, Y. and Zou, H. (2015) DOI: <doi:10.1007/s11222-014-9498-5>.
 License: GPL-2
-URL: http://code.google.com/p/gglasso/
-Packaged: 2014-08-17 01:37:40 UTC; emeryyi
+Imports: methods
+URL: https://github.com/emeryyi/gglasso
+Packaged: 2017-09-15 01:58:29 UTC; yiyang
 Repository: CRAN
-Date/Publication: 2014-08-17 08:22:45
+Date/Publication: 2017-09-15 07:43:21 UTC
 NeedsCompilation: yes
