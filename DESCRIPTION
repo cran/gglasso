@@ -1,14 +1,30 @@
 Package: gglasso
 Title: Group Lasso Penalized Learning Using a Unified BMD Algorithm
-Version: 1.4
-Date: 2017-9-12
-Author: Yi Yang <yi.yang6@mcgill.ca>, Hui Zou <hzou@stat.umn.edu>
+Version: 1.5
+Date: 2020-3-01
+Authors@R: c(
+  person("Yi", "Yang", email = "yi.yang6@mcgill.ca",
+  role = c("aut", "cre"), comment = "http://www.math.mcgill.ca/yyang/"),
+  person("Hui", "Zou", email = "hzou@stat.umn.edu",
+  role = c("aut"), comment = "http://users.stat.umn.edu/~zouxx019/"),
+  person("Sahir", "Bhatnagar", email = "sahir.bhatnagar@gmail.com",
+  role = c("aut"), comment = "http://sahirbhatnagar.com/")
+  )
 Maintainer: Yi Yang <yi.yang6@mcgill.ca>
 Description: A unified algorithm, blockwise-majorization-descent (BMD), for efficiently computing the solution paths of the group-lasso penalized least squares, logistic regression, Huberized SVM and squared SVM. The package is an implementation of Yang, Y. and Zou, H. (2015) DOI: <doi:10.1007/s11222-014-9498-5>.
 License: GPL-2
 Imports: methods
 URL: https://github.com/emeryyi/gglasso
-Packaged: 2017-09-15 01:58:29 UTC; yiyang
+BugReports: https://github.com/emeryyi/gglasso/issues
+Packaged: 2020-03-18 05:48:51 UTC; yiyang
 Repository: CRAN
-Date/Publication: 2017-09-15 07:43:21 UTC
+Date/Publication: 2020-03-18 07:00:08 UTC
+RoxygenNote: 7.0.2
+Suggests: testthat, knitr, rmarkdown
+Encoding: UTF-8
+LazyData: TRUE
+VignetteBuilder: knitr
 NeedsCompilation: yes
+Author: Yi Yang [aut, cre] (http://www.math.mcgill.ca/yyang/),
+  Hui Zou [aut] (http://users.stat.umn.edu/~zouxx019/),
+  Sahir Bhatnagar [aut] (http://sahirbhatnagar.com/)
