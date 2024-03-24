@@ -1,7 +1,6 @@
 Package: gglasso
 Title: Group Lasso Penalized Learning Using a Unified BMD Algorithm
-Version: 1.5
-Date: 2020-3-01
+Version: 1.5.1
 Authors@R: c(
   person("Yi", "Yang", email = "yi.yang6@mcgill.ca",
   role = c("aut", "cre"), comment = "http://www.math.mcgill.ca/yyang/"),
@@ -16,9 +15,9 @@ License: GPL-2
 Imports: methods
 URL: https://github.com/emeryyi/gglasso
 BugReports: https://github.com/emeryyi/gglasso/issues
-Packaged: 2020-03-18 05:48:51 UTC; yiyang
+Packaged: 2024-03-24 10:55:14 UTC; hornik
 Repository: CRAN
-Date/Publication: 2020-03-18 07:00:08 UTC
+Date/Publication: 2024-03-24 14:45:12 UTC
 RoxygenNote: 7.0.2
 Suggests: testthat, knitr, rmarkdown
 Encoding: UTF-8

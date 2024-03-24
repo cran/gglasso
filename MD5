@@ -1,6 +1,6 @@
 94d55d512a9ba36caa9b7df079bae19f *COPYING
 dc379c36eefc4134ea9593bea77c2e3a *ChangeLog
-1210cdb1756c387c8c15c96e8b162737 *DESCRIPTION
+72c80ced95f85ba5a2da54b38b0d938e *DESCRIPTION
 fefa0a21074edd67050159264299be82 *NAMESPACE
 e3bd2a59daf08498ef92e9acc67c8bf5 *R/auxiliary.R
 9941f1305500ca1bc96d4d91286bf6d0 *R/bardet-data.R
@@ -15,10 +15,12 @@ aab90fe780415818820624e51e5f278b *R/plot.gglasso.R
 83fe1e54dd4a19a8d2dd6e35ec775581 *R/tools.R
 a929131582ff2bd9a9b9ac5bac51f0df *R/utilities.R
 c1d860ef98490f51254874779d8e848d *README.md
-4608667f3f87f80615d42abb58586856 *build/vignette.rds
-7fa8b373ed2db504181d7a8601439819 *data/bardet.rda
-86bdce2f0c9a57bacf5b16cf94bed9a1 *data/colon.rda
-09fc79648e03d5435f338a518f3011e7 *inst/doc/Introduction_to_gglasso_package.html
+e7ae675cab64041d62510edfa6459c8f *build/vignette.rds
+f031d1aa2e68320401d2a4d804c11b47 *data/bardet.rda
+4ca8a2ae26a0ea2ccfb65f87e864a2f8 *data/colon.rda
+34835d457f75b404f71cd5b1627499b0 *inst/doc/Introduction_to_gglasso_package.R
+2627b8fce6451e3157858dedbcdf231d *inst/doc/Introduction_to_gglasso_package.Rmd
+1283cce479fd40122fe265edd8c3a9a1 *inst/doc/Introduction_to_gglasso_package.html
 ed598345b44a387bb002166ebc200349 *man/bardet.Rd
 fe21f2bc867281ae854d39759e726168 *man/coef.cv.gglasso.Rd
 277672762609c22e7ffbe701db186983 *man/coef.gglasso.Rd
