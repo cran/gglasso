@@ -176,7 +176,7 @@ SUBROUTINE hsvm_f (delta,bn,bs,ix,iy,gam,nobs,nvars,x,y,pf,dfmax,pmax,nlam,flmin
     ni = npass
     alf = 0.0D0
     dl = 0.0D0
-	 vl = 0.0D0
+    vl = 0.0D0
 ! --------- lambda loop ----------------------------
     IF(flmin < 1.0D0) THEN
         flmin = Max (mfl, flmin)
@@ -370,16 +370,16 @@ SUBROUTINE hsvm_f (delta,bn,bs,ix,iy,gam,nobs,nvars,x,y,pf,dfmax,pmax,nlam,flmin
             max_gam = maxval(gam)
             IF(any((max_gam*(b-oldbeta)/(1+abs(b)))**2 >= eps)) jx = 1
             IF (jx /= 0) CYCLE
-		      DO i = 1, nobs
-		          IF (r(i) > 1.0D0) THEN
-		             dl (i) = 0.0D0
-		          ELSEIF (r(i) <= (1-delta)) THEN
-		             dl (i) = 1.0D0
-		          ELSE
-		             dl (i) = (1.0D0 - r(i)) / delta
-		          ENDIF
-		      ENDDO
-		      vl = matmul(dl*y, x) / nobs
+              DO i = 1, nobs
+                  IF (r(i) > 1.0D0) THEN
+                     dl (i) = 0.0D0
+                  ELSEIF (r(i) <= (1-delta)) THEN
+                     dl (i) = 1.0D0
+                  ELSE
+                     dl (i) = (1.0D0 - r(i)) / delta
+                  ENDIF
+              ENDDO
+              vl = matmul(dl*y, x) / nobs
             DO g = 1, bn
                 IF(jxx(g) == 1) CYCLE
                 ALLOCATE(u(bs(g)))

@@ -48,7 +48,7 @@ plot(m1,log.l=FALSE) # plots against the lambda sequence
 Yang, Y. and Zou, H. (2015), ``A Fast Unified Algorithm for
 Computing Group-Lasso Penalized Learning Problems,'' \emph{Statistics and
 Computing}. 25(6), 1129-1141.\cr BugReport:
-\url{https://github.com/emeryyi/gglasso}\cr
+\url{https://github.com/archer-yang-lab/gglasso}\cr
 }
 \author{
 Yi Yang and Hui Zou\cr Maintainer: Yi Yang <yi.yang6@mcgill.ca>

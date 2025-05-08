@@ -54,11 +54,11 @@ pre = coef(cv$gglasso.fit, s = cv$lambda.1se)
 Yang, Y. and Zou, H. (2015), ``A Fast Unified Algorithm for
 Computing Group-Lasso Penalized Learning Problems,'' \emph{Statistics and
 Computing}. 25(6), 1129-1141.\cr BugReport:
-\url{https://github.com/emeryyi/gglasso}\cr
+\url{https://github.com/archer-yang-lab/gglasso}\cr
 
 Friedman, J., Hastie, T., and Tibshirani, R. (2010), "Regularization paths
 for generalized linear models via coordinate descent," \emph{Journal of
-Statistical Software, 33, 1.}\cr \url{http://www.jstatsoft.org/v33/i01/}
+Statistical Software, 33, 1.}\cr \url{https://www.jstatsoft.org/v33/i01/}
 }
 \seealso{
 \code{\link{cv.gglasso}}, and \code{\link{predict.cv.gglasso}}

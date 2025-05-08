@@ -57,7 +57,7 @@ s = cv$lambda.min, type = "class")
 Yang, Y. and Zou, H. (2015), ``A Fast Unified Algorithm for
 Computing Group-Lasso Penalized Learning Problems,'' \emph{Statistics and
 Computing}. 25(6), 1129-1141.\cr BugReport:
-\url{https://github.com/emeryyi/gglasso}\cr
+\url{https://github.com/archer-yang-lab/gglasso}\cr
 }
 \seealso{
 \code{\link{cv.gglasso}}, and \code{\link{coef.cv.gglasso}}
